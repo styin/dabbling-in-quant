@@ -1,0 +1,14 @@
+name: rral-backtest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - pip
+  - pip:
+    - backtesting>=0.3.3
+    - yfinance>=0.2.36
+    - pytest>=7.0
+    - bokeh>=3.0
